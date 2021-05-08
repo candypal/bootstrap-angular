@@ -1,0 +1,66 @@
+<!--<app-ba-hero></app-ba-hero>-->
+<main id="main">
+
+  <app-ba-modal></app-ba-modal>
+<!--  <app-ba-carousel></app-ba-carousel>-->
+<!--  <app-ba-choose-cards></app-ba-choose-cards>-->
+  <app-ba-about></app-ba-about>
+<!--  <app-ba-technologies-count></app-ba-technologies-count>-->
+
+<!--  <app-ba-services></app-ba-services>-->
+<!--  <app-ba-appointement></app-ba-appointement>-->
+<!--  <app-ba-department></app-ba-department>-->
+<!--  <app-ba-doctors></app-ba-doctors>-->
+<!--  <app-ba-frequently-asked-questions></app-ba-frequently-asked-questions>-->
+<!--  <app-ba-testimonials></app-ba-testimonials>-->
+<!--  <app-ba-gallery></app-ba-gallery>-->
+<!--  <app-ba-contacts></app-ba-contacts>-->
+
+  <div class="home-component container">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary appointment-btn scrollto"
+            (click)="open(demoHomeModal)"
+            data-toggle="modal" data-target="#staticBackdrop">
+      Launch demo modal
+    </button>
+  </div>
+
+</main><!-- End #main -->
+
+<!--<app-ba-footer></app-ba-footer>-->
+<!--<div id="preloader"></div>-->
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+
+
+<div
+  #demoHomeModal class="modal fade"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true">
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        ...
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
